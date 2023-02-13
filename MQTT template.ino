@@ -130,6 +130,9 @@ void reconnect()
       // Add your subscribe topics here
       // --
       client.subscribe("esp32v1/output");
+      client.subscribe("esp32v1/angle");
+	    client.subscribe("esp32v1/left");
+	    client.subscribe("esp32v1/right");
       // --
          
     } else
